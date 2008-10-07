@@ -41,12 +41,13 @@ public class demoEntryPoint implements EntryPoint
 //
 //        RootPanel.get().add(bar);
         Dispatcher dispatcher = Dispatcher.get();
-        Label label1 = new Label();
         
         dispatcher.addController(new AppController());
+        dispatcher.addController(new BillController());
         dispatcher.addController(new ContactController());
+        
         dispatcher.dispatch(AppEvents.Init); 
-        label1.setText(dispatcher.toString());
-        RootPanel.get().add(label1);
+        
+        
     }
 }
