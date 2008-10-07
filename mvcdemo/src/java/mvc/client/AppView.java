@@ -43,7 +43,6 @@ public class AppView extends View
         viewport = new Viewport();
         viewport.setLayout(new BorderLayout());
 
-        createNorth();
         createWest();
         createCenter();
 
@@ -55,18 +54,6 @@ public class AppView extends View
         RootPanel.get().add(viewport);
     }
 
-    private void createNorth()
-    {
-        StringBuffer sb = new StringBuffer();
-        sb.append("<div id='demo-header' class='x-small-editor'><div id='demo-theme'></div><div id=demo-title>Ext GWT Mail Demo</div></div>");
-
-        HtmlContainer northPanel = new HtmlContainer(sb.toString());
-        northPanel.setEnableState(false);
-
-        BorderLayoutData data = new BorderLayoutData(LayoutRegion.NORTH, 33);
-        data.setMargins(new Margins());
-        viewport.add(northPanel, data);
-    }
 
     private void createWest()
     {
@@ -76,7 +63,7 @@ public class AppView extends View
         west = new ContentPanel();
         west.setBodyBorder(false);
         west.setLayoutOnChange(true);
-        west.setHeading("GXT Mail Demo");
+        west.setHeading("32 New Market Road #09-1042");
         west.setLayout(new FitLayout());
 
         viewport.add(west, data);
