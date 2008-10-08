@@ -12,6 +12,7 @@ import java.util.List;
 
 import com.extjs.gxt.ui.client.Style.SelectionMode;
 import com.extjs.gxt.ui.client.binder.TableBinder;
+import com.extjs.gxt.ui.client.data.ModelType;
 import com.extjs.gxt.ui.client.event.SelectionChangedEvent;
 import com.extjs.gxt.ui.client.event.SelectionChangedListener;
 import com.extjs.gxt.ui.client.mvc.AppEvent;
@@ -34,24 +35,24 @@ public class BillListPanel extends ContentPanel
 
     public BillListPanel()
     {
-        
-        
+
+
         /*
         ToolBar toolBar = new ToolBar();
         TextToolItem create = new TextToolItem("Create");
         create.setIconStyle("icon-email-add");
         toolBar.add(create);
-
+        
         TextToolItem reply = new TextToolItem("Reply");
         reply.setIconStyle("icon-email-reply");
         toolBar.add(reply);
-
-        setTopComponent(toolBar);
-        */
         
+        setTopComponent(toolBar);
+         */
+
         /*insert xmlgrid here*/
         List<TableColumn> columns = new ArrayList<TableColumn>();
-        
+
         columns.add(new TableColumn("startDate", "From", .2f));
         columns.add(new TableColumn("endDate", "To", .3f));
         columns.add(new TableColumn("amount", "Amount", .5f));
@@ -70,7 +71,6 @@ public class BillListPanel extends ContentPanel
         binder.setAutoSelect(true);
         binder.addSelectionChangedListener(new SelectionChangedListener<BillItem>()
         {
-
             public void selectionChanged(SelectionChangedEvent<BillItem> event)
             {
                 BillItem m = event.getSelectedItem();
@@ -93,7 +93,7 @@ public class BillListPanel extends ContentPanel
 
     private void showMailItem(BillItem item)
     {
-        AppEvent evt = new AppEvent(AppEvents.ViewMailItem, item);
+        AppEvent evt = new AppEvent(AppEvents.ViewBillItem, item);
         Dispatcher.forwardEvent(evt);
     }
 }

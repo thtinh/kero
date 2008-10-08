@@ -16,51 +16,60 @@ public class BillItem extends BaseModel
     {
     }
 
-    public BillItem(String sender, String email, String subject)
+    public BillItem(String name, String startDate, String endDate, float amount)
     {
-        setSender(sender);
-        setEmail(email);
-        setSubject(subject);
+        setName(name);
+        setStartDate(startDate);
+        setStartDate(endDate);
+        setAmount(amount);       
     }
 
-    public BillItem(String sender, String email, String subject, String body)
+    public BillItem(String name, String startDate, String endDate, float amount, String body)
     {
-        this(sender, email, subject);
+        this(name,startDate,endDate,amount);
         set("body", body);
     }
 
-    public String getSender()
+    public String getName()
     {
-        return (String) get("sender");
+        return (String) get("name");
     }
 
-    public void setSender(String sender)
+    public void setName(String name)
     {
-        set("sender", sender);
+        set("name", name);
     }
 
-    public void setEmail(String email)
+    public void setStartDate(String StartDate)
     {
-        set("email", email);
+        set("startDate", StartDate);
     }
 
-    public String getEmail()
+    public String getStartDate()
     {
-        return (String) get("email");
+        return (String) get("startDate");
     }
 
     public String getBody()
     {
         return (String) get("body");
     }
-
-    public void setSubject(String subject)
+    public void setEndDate(String endDate)
     {
-        set("subject", subject);
+        set("endDate", endDate);
     }
 
-    public String getSubject()
+    public String getEndDate()
     {
-        return (String) get("subject");
+        return (String) get("endDate");
+    }
+   public void setAmount(float amount)
+    {
+        set("amount", amount);
+    }
+
+    public float getAmount()
+    {
+        return Float.valueOf((String)get("amount"));
     }
 }

@@ -59,7 +59,7 @@ public class BillFolderView extends View
 
             public void handleEvent(ComponentEvent be)
             {
-                Dispatcher.get().dispatch(AppEvents.NavMail);
+                Dispatcher.get().dispatch(AppEvents.NavBills);
             }
         });
 
@@ -78,7 +78,7 @@ public class BillFolderView extends View
             public void selectionChanged(SelectionChangedEvent se)
             {
                 Folder f = (Folder) se.getSelection().get(0);
-                AppEvent evt = new AppEvent(AppEvents.ViewMailItems, f);
+                AppEvent evt = new AppEvent(AppEvents.ViewBillItems, f);
                 fireEvent(evt);
             }
         });
@@ -97,7 +97,7 @@ public class BillFolderView extends View
                 break;
         }
 
-        if (event.type == AppEvents.NavMail)
+        if (event.type == AppEvents.NavBills)
         {
             Folder f = (Folder) event.data;
             if (f != null)
