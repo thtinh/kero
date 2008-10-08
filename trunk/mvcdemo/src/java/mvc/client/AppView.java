@@ -50,8 +50,11 @@ public class AppView extends View
         Registry.register("viewport", viewport);
         Registry.register("west", west);
         Registry.register("center", center);
-
+        
         RootPanel.get().add(viewport);
+        
+        //Show bill folder by default
+        Dispatcher.forwardEvent(AppEvents.NavBills);
     }
 
 

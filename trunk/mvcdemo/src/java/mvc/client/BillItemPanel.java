@@ -43,10 +43,11 @@ public class BillItemPanel extends ContentPanel
         if (item != null)
         {
             Params p = new Params();
-            p.add(item.getSubject());
-            p.add(item.getSender());
-            p.add(item.getEmail());
-
+            p.add(item.getName());
+            p.add(item.getStartDate());
+            p.add(item.getEndDate());
+            p.add(item.getAmount());
+            
             String s = Format.substitute(headerHTML, p);
             header.getElement().setInnerHTML(s);
 

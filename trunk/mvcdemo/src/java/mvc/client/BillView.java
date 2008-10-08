@@ -34,7 +34,7 @@ public class BillView extends View
 
     protected void handleEvent(AppEvent event)
     {
-        if (event.type == AppEvents.NavMail)
+        if (event.type == AppEvents.NavBills)
         {
             LayoutContainer wrapper = (LayoutContainer) Registry.get("center");
             wrapper.removeAll();
@@ -42,7 +42,7 @@ public class BillView extends View
             wrapper.layout();
         }
 
-        if (event.type == AppEvents.ViewMailItems)
+        if (event.type == AppEvents.ViewBillItems)
         {
             LayoutContainer wrapper = (LayoutContainer) Registry.get("center");
 
@@ -66,7 +66,7 @@ public class BillView extends View
             }
         }
 
-        if (event.type == AppEvents.ViewMailItem)
+        if (event.type == AppEvents.ViewBillItem)
         {
             BillItem item = (BillItem) event.data;
             mailItemPanel.showItem(item);

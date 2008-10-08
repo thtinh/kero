@@ -13,7 +13,6 @@ import com.extjs.gxt.ui.client.Registry;
 import com.extjs.gxt.ui.client.mvc.AppEvent;
 import com.extjs.gxt.ui.client.mvc.Controller;
 import com.extjs.gxt.ui.client.mvc.Dispatcher;
-import com.google.gwt.user.client.rpc.AsyncCallback;
 
 
 public class BillController extends Controller
@@ -25,9 +24,9 @@ public class BillController extends Controller
     public BillController()
     {
         registerEventTypes(AppEvents.Init);
-        registerEventTypes(AppEvents.NavMail);
-        registerEventTypes(AppEvents.ViewMailItems);
-        registerEventTypes(AppEvents.ViewMailItem);
+        registerEventTypes(AppEvents.NavBills);
+        registerEventTypes(AppEvents.ViewBillItems);
+        registerEventTypes(AppEvents.ViewBillItem);
     }
 
     @Override
@@ -38,20 +37,20 @@ public class BillController extends Controller
             case AppEvents.Init:
                 forwardToView(folderView, event);
                 break;
-            case AppEvents.NavMail:
+            case AppEvents.NavBills:
                 forwardToView(folderView, event);
                 forwardToView(mailView, event);
                 break;
-            case AppEvents.ViewMailItems:
-                onViewMailItems(event);
+            case AppEvents.ViewBillItems:
+                onViewBillItems(event);
                 break;
-            case AppEvents.ViewMailItem:
+            case AppEvents.ViewBillItem:
                 forwardToView(mailView, event);
                 break;
         }
     }
 
-    private void onViewMailItems(final AppEvent<Folder> event)
+    private void onViewBillItems(final AppEvent<Folder> event)
     {
         final Folder f = event.data;
         if (f != null)
@@ -64,8 +63,6 @@ public class BillController extends Controller
 
     public void initialize()
     {
-
-
         folderView = new BillFolderView(this);
         mailView = new BillView(this);
     }
