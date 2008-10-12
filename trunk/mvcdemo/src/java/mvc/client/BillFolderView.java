@@ -26,18 +26,19 @@ import com.extjs.gxt.ui.client.mvc.Controller;
 import com.extjs.gxt.ui.client.mvc.Dispatcher;
 import com.extjs.gxt.ui.client.mvc.View;
 import com.extjs.gxt.ui.client.store.TreeStore;
+import com.extjs.gxt.ui.client.util.TreeBuilder;
 import com.extjs.gxt.ui.client.widget.ContentPanel;
 import com.extjs.gxt.ui.client.widget.layout.AccordionLayout;
 import com.extjs.gxt.ui.client.widget.tree.Tree;
 
 public class BillFolderView extends View
 {
-
+    BillModel billModel = new BillModel();
     private Tree tree;
-    private TreeStore<Folder> store;
-    private TreeBinder<Folder> binder;
-    private TreeLoader<Folder> loader;
-
+    private TreeStore<BillModel> store;
+    private TreeBinder<BillModel> binder;
+    private TreeLoader<BillModel> loader;
+    
     public BillFolderView(Controller controller)
     {
         super(controller);
@@ -52,9 +53,9 @@ public class BillFolderView extends View
         ContentPanel west = (ContentPanel) Registry.get("west");
         west.setLayout(new AccordionLayout());
 
-        ContentPanel mail = new ContentPanel();
-        mail.setHeading("Bills");
-        mail.addListener(Events.Expand, new Listener<ComponentEvent>()
+        ContentPanel bill = new ContentPanel();
+        bill.setHeading("Bills");
+        bill.addListener(Events.Expand, new Listener<ComponentEvent>()
         {
 
             public void handleEvent(ComponentEvent be)
@@ -64,14 +65,20 @@ public class BillFolderView extends View
         });
 
         tree = new Tree();
+        
         tree.getStyle().setLeafIconStyle("tree-folder");
-
+        //TreeBuilder.buildTree(tree, billModel);
+        
         loader = new BaseTreeLoader(new TreeModelReader());
-        store = new TreeStore<Folder>(loader);
-
-        binder = new TreeBinder<Folder>(tree, store);
-        binder.setDisplayProperty("name");
+        store = new TreeStore<BillModel>(loader);
+        
+        
+        binder = new TreeBinder<BillModel>(tree, store);
+        
+        binder.setAutoLoad(true);
         binder.setAutoSelect(true);
+        binder.setDisplayProperty("name");
+        loader.load(billModel);
         binder.addSelectionChangedListener(new SelectionChangedListener<ModelData>()
         {
 
@@ -82,10 +89,10 @@ public class BillFolderView extends View
                 fireEvent(evt);
             }
         });
-
-        mail.add(tree);
-
-        west.add(mail);
+        
+        bill.add(tree);
+       
+        west.add(bill);
     }
 
     protected void handleEvent(AppEvent event)
@@ -99,7 +106,7 @@ public class BillFolderView extends View
 
         if (event.type == AppEvents.NavBills)
         {
-            Folder f = (Folder) event.data;
+            BillModel f = (BillModel) event.data;
             if (f != null)
             {
                 loader.addListener(Loader.Load, new LoadListener()

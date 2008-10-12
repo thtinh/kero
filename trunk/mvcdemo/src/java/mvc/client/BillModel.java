@@ -17,18 +17,17 @@ public class BillModel extends BaseTreeModel
 {
 
     private Folder utility, internet, other;
-    XmlLoader loader;
+    //XmlLoader loader;
     public BillModel()
     {
-        loader = new XmlLoader();
+        //loader = new XmlLoader();
         utility = new Folder("Utility");
         internet = new Folder("Internet");
         other = new Folder("Other");
 
-       ListStore<BillItem> utilityBill = loader.getUtilityBills();
+       //ListStore<BillItem> utilityBill = loader.getUtilityBills();
 
-        utility.set("children", utilityBill);
-
+       // utility.set("children", utilityBill);
         add(utility);
         add(internet);
         add(other);
