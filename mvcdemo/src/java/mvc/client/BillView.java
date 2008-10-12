@@ -11,6 +11,7 @@ import java.util.List;
 
 import com.extjs.gxt.ui.client.Registry;
 import com.extjs.gxt.ui.client.Style.LayoutRegion;
+import com.extjs.gxt.ui.client.data.ModelData;
 import com.extjs.gxt.ui.client.mvc.AppEvent;
 import com.extjs.gxt.ui.client.mvc.Controller;
 import com.extjs.gxt.ui.client.mvc.View;
@@ -48,22 +49,8 @@ public class BillView extends View
 
             Folder f = (Folder) event.getData("folder");
             mailListPanel.setHeading(f.getName());
-
-            ListStore<BillItem> store = mailListPanel.getStore();
-            store.removeAll();
-            store.add((List) event.data);
-
-            wrapper.layout();
-
-            List items = (List) event.data;
-            if (items.size() > 0)
-            {
-                mailListPanel.getBinder().setSelection((BillItem) items.get(0));
-            }
-            else
-            {
-                mailItemPanel.showItem(null);
-            }
+            mailListPanel.load(f.getName());
+            
         }
 
         if (event.type == AppEvents.ViewBillItem)
@@ -72,7 +59,7 @@ public class BillView extends View
             mailItemPanel.showItem(item);
         }
     }
-
+   
     @Override
     protected void initialize()
     {

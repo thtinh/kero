@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Report>
+    <Tenants>
+        <Tenant>
+            <name>Tinh</name>
+            <stayDate>12/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>42.749577</amount>
+        </Tenant>
+        <Tenant>
+            <name>Tri</name>
+            <stayDate>12/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>42.749577</amount>
+        </Tenant>
+        <Tenant>
+            <name>Cong</name>
+            <stayDate>07/09/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>3.3239412</amount>
+        </Tenant>
+        <Tenant>
+            <name>Han</name>
+            <stayDate>17/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>33.054752</amount>
+        </Tenant>
+        <Tenant>
+            <name>Bach</name>
+            <stayDate>27/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>17.543022</amount>
+        </Tenant>
+        <Tenant>
+            <name>Quan</name>
+            <stayDate>12/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>42.749577</amount>
+        </Tenant>
+        <Tenant>
+            <name>Hanh</name>
+            <stayDate>12/08/2008</stayDate>
+            <leaveDate>10/09/2008</leaveDate>
+            <amount>42.749577</amount>
+        </Tenant>
+    </Tenants>
+</Report>

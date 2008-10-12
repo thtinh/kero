@@ -22,6 +22,7 @@ public class XmlLoader
     public static final String PATH = "";
     public static final String FILENAME = "unit.xml";
     private ListStore<BillItem> store;
+    private BaseListLoader loader;
     public XmlLoader()
     {
         // defines the xml structure
@@ -36,16 +37,16 @@ public class XmlLoader
         // use a http proxy to get the data
         RequestBuilder builder = new RequestBuilder(RequestBuilder.GET, PATH+FILENAME);
         HttpProxy proxy = new HttpProxy(builder);
-
+        
         // need a loader, proxy, and reader
         XmlReader reader = new XmlReader(type);
-
-        final BaseListLoader loader = new BaseListLoader(proxy, reader);
-
+        loader = new BaseListLoader(proxy, reader);
         store = new ListStore<BillItem>(loader);
     }
     public ListStore<BillItem> getUtilityBills()
     {
+        
         return store;
     }
+    
 }

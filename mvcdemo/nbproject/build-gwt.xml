@@ -11,7 +11,7 @@
         <property name="gwt.compiler.logLevel" value="WARN"/>
         
         <java classpath="${javac.classpath}:${src.dir}" failonerror="true"
-              classname="com.google.gwt.dev.GWTCompiler" fork="true" maxmemory="512M">
+              classname="com.google.gwt.dev.GWTCompiler" fork="true">
             <arg value="-out"/>
             <arg path="${build.web.dir}/"/>
             <arg value="-style"/>
@@ -47,7 +47,7 @@
             <os family="mac"/>
         </condition>
         
-        <java fork="true" classname="com.google.gwt.dev.GWTShell" failonerror="true" maxmemory="512M">
+        <java fork="true" classname="com.google.gwt.dev.GWTShell" failonerror="true">
             <jvmarg line="${gwtshell.jvmargs}"/>
             <classpath>
                 <path path="${src.dir}:${javac.classpath}:${build.classes.dir}"/>
@@ -77,7 +77,7 @@
             <os family="mac"/>
         </condition>
         
-        <java fork="true" classname="com.google.gwt.dev.GWTShell" maxmemory="512M">
+        <java fork="true" classname="com.google.gwt.dev.GWTShell">
             <jvmarg line="${gwtshell.jvmargs}" />
             <classpath>
                 <path path="${src.dir}:${javac.classpath}"/>

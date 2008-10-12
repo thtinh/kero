@@ -10,33 +10,30 @@ package mvc.client;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.extjs.gxt.ui.client.Style.SelectionMode;
-import com.extjs.gxt.ui.client.binder.TableBinder;
+import com.extjs.gxt.ui.client.data.BaseListLoader;
+import com.extjs.gxt.ui.client.data.HttpProxy;
+import com.extjs.gxt.ui.client.data.ModelData;
 import com.extjs.gxt.ui.client.data.ModelType;
-import com.extjs.gxt.ui.client.event.SelectionChangedEvent;
-import com.extjs.gxt.ui.client.event.SelectionChangedListener;
+import com.extjs.gxt.ui.client.data.XmlReader;
 import com.extjs.gxt.ui.client.mvc.AppEvent;
 import com.extjs.gxt.ui.client.mvc.Dispatcher;
 import com.extjs.gxt.ui.client.store.ListStore;
 import com.extjs.gxt.ui.client.widget.ContentPanel;
+import com.extjs.gxt.ui.client.widget.grid.ColumnConfig;
+import com.extjs.gxt.ui.client.widget.grid.ColumnModel;
+import com.extjs.gxt.ui.client.widget.grid.Grid;
 import com.extjs.gxt.ui.client.widget.layout.FitLayout;
-import com.extjs.gxt.ui.client.widget.table.Table;
 import com.extjs.gxt.ui.client.widget.table.TableColumn;
 import com.extjs.gxt.ui.client.widget.table.TableColumnModel;
-import com.extjs.gxt.ui.client.widget.toolbar.TextToolItem;
-import com.extjs.gxt.ui.client.widget.toolbar.ToolBar;
+import com.google.gwt.http.client.RequestBuilder;
 
 public class BillListPanel extends ContentPanel
 {
 
-    private Table table;
-    private ListStore<BillItem> store;
-    private TableBinder<BillItem> binder;
-
+    final Grid grid;
+    final BaseListLoader loader;
     public BillListPanel()
     {
-
-
         /*
         ToolBar toolBar = new ToolBar();
         TextToolItem create = new TextToolItem("Create");
@@ -51,44 +48,40 @@ public class BillListPanel extends ContentPanel
          */
 
         /*insert xmlgrid here*/
-        List<TableColumn> columns = new ArrayList<TableColumn>();
+        
+        List<ColumnConfig> columns = new ArrayList<ColumnConfig>();
 
-        columns.add(new TableColumn("startDate", "From", .2f));
-        columns.add(new TableColumn("endDate", "To", .3f));
-        columns.add(new TableColumn("amount", "Amount", .5f));
+        columns.add(new ColumnConfig("startDate", "From", 200));
+        columns.add(new ColumnConfig("endDate", "To", 200));
+        columns.add(new ColumnConfig("amount", "Amount", 200));
 
-        TableColumnModel cm = new TableColumnModel(columns);
+        ColumnModel cm = new ColumnModel(columns);
+        ModelType type = new ModelType();
+        type.root = "Bills";
+        type.recordName = "Bill";
+        type.addField("startDate");
+        type.addField("endDate");
+        type.addField("amount");
 
-        table = new Table(cm);
-        table.setSelectionMode(SelectionMode.MULTI);
-        table.setBorders(false);
+        // use a http proxy to get the data
+        RequestBuilder builder = new RequestBuilder(RequestBuilder.GET, "Unit.xml");
+        HttpProxy proxy = new HttpProxy(builder);
 
-        add(table);
+        // need a load, proxy, and reader
+        XmlReader reader = new XmlReader(type);
 
-        store = new ListStore<BillItem>();
-
-        binder = new TableBinder<BillItem>(table, store);
-        binder.setAutoSelect(true);
-        binder.addSelectionChangedListener(new SelectionChangedListener<BillItem>()
-        {
-            public void selectionChanged(SelectionChangedEvent<BillItem> event)
-            {
-                BillItem m = event.getSelectedItem();
-                showMailItem(m);
-            }
-        });
-
+        loader = new BaseListLoader(proxy, reader);
+        
+        ListStore<BillItem> store = new ListStore<BillItem>(loader);
+        grid = new Grid<BillItem>(store, cm);
+        
+        add(grid);
         setLayout(new FitLayout());
     }
 
-    public ListStore<BillItem> getStore()
+    public void load(String name)
     {
-        return store;
-    }
-
-    public TableBinder<BillItem> getBinder()
-    {
-        return binder;
+        loader.load();
     }
 
     private void showMailItem(BillItem item)

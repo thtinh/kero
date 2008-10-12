@@ -19,14 +19,15 @@ public class BillController extends Controller
 {
 
     private BillFolderView folderView;
-    private BillView mailView;
-
+    private BillView billView;
+    XmlLoader loader;
     public BillController()
     {
         registerEventTypes(AppEvents.Init);
         registerEventTypes(AppEvents.NavBills);
         registerEventTypes(AppEvents.ViewBillItems);
         registerEventTypes(AppEvents.ViewBillItem);
+        loader = new XmlLoader();
     }
 
     @Override
@@ -39,13 +40,13 @@ public class BillController extends Controller
                 break;
             case AppEvents.NavBills:
                 forwardToView(folderView, event);
-                forwardToView(mailView, event);
+                forwardToView(billView, event);
                 break;
             case AppEvents.ViewBillItems:
                 onViewBillItems(event);
                 break;
             case AppEvents.ViewBillItem:
-                forwardToView(mailView, event);
+                forwardToView(billView, event);
                 break;
         }
     }
@@ -53,10 +54,14 @@ public class BillController extends Controller
     private void onViewBillItems(final AppEvent<Folder> event)
     {
         final Folder f = event.data;
+        
         if (f != null)
         {
            
-                 //   forwardToView(mailView, ae);
+           AppEvent ae = new AppEvent(event.type,loader.getUtilityBills());
+           
+           ae.setData("folder", f);
+           forwardToView(billView, ae);
         }
 
     }
@@ -64,6 +69,6 @@ public class BillController extends Controller
     public void initialize()
     {
         folderView = new BillFolderView(this);
-        mailView = new BillView(this);
+        billView = new BillView(this);
     }
 }
