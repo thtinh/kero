@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="45">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="pimpstreamer-0.90"
+                   displayName="pimpstreamer-0.90"
+                   projectFiles="true">
+      <logicalFolder name="libavcodec" displayName="libavcodec" projectFiles="true">
+        <logicalFolder name="mod" displayName="mod" projectFiles="true">
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/dsputil.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/dsputil.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/dsputil_mips.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/h263dec.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/h263dec.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/me_idct.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/me_idct.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/mem.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/mpegvideo.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/simple_idct.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/simple_idct.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/libavcodec/mod/utils.c</itemPath>
+        </logicalFolder>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/4xm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/8bps.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/aasc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ac3.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ac3enc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ac3tab.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/adpcm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/adx.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/alac.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/allcodecs.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/asv1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/avcodec.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/bitstream.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/bitstream.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/cabac.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/cabac.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/cinepak.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/cljr.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/cyuv.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dpcm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dv.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dvbsub.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dvbsubdec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dvdata.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/dvdsub.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/error_resilience.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/eval.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/faandct.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/faandct.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/fft.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ffv1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/flac.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/flicvideo.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/fraps.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/g726.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/golomb.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/golomb.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h261.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h261data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h263.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h263data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h264.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h264data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/h264idct.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/huffyuv.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/idcinvideo.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/imgconvert.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/imgconvert_template.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/imgresample.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/indeo2.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/indeo2data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/indeo3.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/indeo3data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/interplayvideo.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/jfdctfst.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/jfdctint.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/jrevdct.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/lcl.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/loco.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mace.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mdct.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mdec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mjpeg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/motion_est.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/motion_est_template.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpeg12.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpeg12data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpeg4data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegaudio.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegaudio.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegaudiodec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegaudiodectab.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegaudiotab.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/mpegvideo.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/msmpeg4.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/msmpeg4data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/msrle.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/msvideo1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/opt.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/opt.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/parser.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/pcm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/png.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/pnm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/qdrw.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/qpeg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/qtrle.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ra144.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ra144.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ra288.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ra288.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/rangecoder.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/rangecoder.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ratecontrol.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/raw.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/resample.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/resample2.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/roqvideo.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/rpza.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/rv10.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/shorten.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/smc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/snow.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/sonic.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/sp5x.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/svq1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/svq1_cb.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/svq1_vlc.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/svq3.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/truemotion1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/truemotion1data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/tscc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ulti.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ulti_cb.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vc9.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vc9data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vcr1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vmdav.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vorbis.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vorbis.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vp3.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vp3data.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vp3dsp.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/vqavideo.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/wmadata.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/wmadec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/wmv2.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/wnv1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/ws-snd1.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/xan.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavcodec/xl.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libavformat" displayName="libavformat" projectFiles="true">
+        <logicalFolder name="mod" displayName="mod" projectFiles="true">
+          <itemPath>../../pimpstreamer-0.90/libavformat/mod/file.c</itemPath>
+        </logicalFolder>
+        <itemPath>../../pimpstreamer-0.90/libavformat/4xm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/allformats.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/asf-enc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/asf.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/asf.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/au.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avformat.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avi.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avidec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avienc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avio.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/avio.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/aviobuf.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/crc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/cutils.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/daud.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/dv.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/dv.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/electronicarts.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/ffm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/flic.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/flvdec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/flvenc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/framehook.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/framehook.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/gif.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/gifdec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/idcin.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/idroq.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/img.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/img2.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/ipmovie.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/jpeg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/matroska.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mmf.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mov.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/movenc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mp3.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mpeg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mpegts.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mpegts.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mpegtsenc.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/mpjpeg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/nsvdec.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/nut.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/ogg.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/ogg2.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/ogg2.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/oggparseflac.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/oggparsetheora.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/oggparsevorbis.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/os_support.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/os_support.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/png.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/pnm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/psxstr.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/qtpalette.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/raw.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/rm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/rtp.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/rtsp.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/rtspcodes.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/segafilm.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/sgi.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/sierravmd.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/sol.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/swf.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/utils.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/wav.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/wc3movie.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/westwood.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/yuv.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavformat/yuv4mpeg.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="libavutil" displayName="libavutil" projectFiles="true">
+        <itemPath>../../pimpstreamer-0.90/libavutil/avutil.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/bswap.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/common.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/integer.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/integer.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/intfloat_readwrite.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/intfloat_readwrite.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/mathematics.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/mathematics.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/rational.c</itemPath>
+        <itemPath>../../pimpstreamer-0.90/libavutil/rational.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="pmpmod" displayName="pmpmod" projectFiles="true">
+        <logicalFolder name="me" displayName="me" projectFiles="true">
+          <itemPath>../../pimpstreamer-0.90/pmpmod/me/me.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/me/me.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="mod" displayName="mod" projectFiles="true">
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/aspect_ratio.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/aspect_ratio.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/csc_tables_generator.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/dictionary.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/dictionary.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/gu_font.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/gu_font.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/iniparser.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/iniparser.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/me.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/me.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/mem64.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/mem64.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/memsrc.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/opendir.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/opendir.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_decode.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_decode.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_file.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_file.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_gu.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_gu.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_interface.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_interface.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_microdvd.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_microdvd.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_parse.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_parse.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_play.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_play.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_read.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/pmp_read.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/stream_io.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/stream_io.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/strlib.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/strlib.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/texture_subdivision.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/texture_subdivision.h</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/valloc.c</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/mod/valloc.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="PIMPSTREAMER090"
+                       displayName="PIMPSTREAMER090"
+                       projectFiles="true">
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_arab.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_baltic.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_cyrillic.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_greek.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_heb.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_mideurope.f</itemPath>
+          <itemPath>../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_turk.f</itemPath>
+        </logicalFolder>
+        <itemPath>../../pimpstreamer-0.90/pmpmod/pimp.h</itemPath>
+        <itemPath>../../pimpstreamer-0.90/pmpmod/pmpmod.c</itemPath>
+      </logicalFolder>
+      <itemPath>../../pimpstreamer-0.90/config.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>../../pimpstreamer-0.90/Makefile</itemPath>
+      <itemPath>pimpstreamer-0.90_1-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../pimpstreamer-0.90</Elem>
+  </sourceRootList>
+  <sourceEncoding>UTF-8</sourceEncoding>
+  <projectmakefile>pimpstreamer-0.90_1-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>None|Unknown</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../../pimpstreamer-0.90</buildCommandWorkingDir>
+          <buildCommand>make -f Makefile</buildCommand>
+          <cleanCommand>make -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <requiredProjects>
+        </requiredProjects>
+      </makefileType>
+      <item path="../../pimpstreamer-0.90/config.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/4xm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/8bps.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/aasc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ac3.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ac3enc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ac3tab.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/adpcm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/adx.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/alac.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/allcodecs.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/asv1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/avcodec.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/bitstream.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/bitstream.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/cabac.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/cabac.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/cinepak.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/cljr.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/cyuv.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dpcm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dv.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dvbsub.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dvbsubdec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dvdata.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/dvdsub.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/error_resilience.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/eval.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/faandct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/faandct.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/fft.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ffv1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/flac.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/flicvideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/fraps.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/g726.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/golomb.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/golomb.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h261.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h261data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h263.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h263data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h264.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h264data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/h264idct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/huffyuv.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/idcinvideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/imgconvert.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/imgconvert_template.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/imgresample.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/indeo2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/indeo2data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/indeo3.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/indeo3data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/interplayvideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/jfdctfst.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/jfdctint.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/jrevdct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/lcl.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/loco.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mace.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mdct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mdec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mjpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/dsputil.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/dsputil.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/dsputil_mips.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/h263dec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/h263dec.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/me_idct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/me_idct.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/mem.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/mpegvideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/simple_idct.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/simple_idct.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mod/utils.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/motion_est.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/motion_est_template.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpeg12.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpeg12data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpeg4data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegaudio.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegaudio.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegaudiodec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegaudiodectab.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegaudiotab.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/mpegvideo.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/msmpeg4.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/msmpeg4data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/msrle.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/msvideo1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/opt.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/opt.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/parser.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/pcm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/png.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/pnm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/qdrw.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/qpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/qtrle.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ra144.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ra144.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ra288.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ra288.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/rangecoder.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/rangecoder.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ratecontrol.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/raw.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/resample.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/resample2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/roqvideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/rpza.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/rv10.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/shorten.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/smc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/snow.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/sonic.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/sp5x.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/svq1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/svq1_cb.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/svq1_vlc.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/svq3.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/truemotion1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/truemotion1data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/tscc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ulti.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ulti_cb.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vc9.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vc9data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vcr1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vmdav.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vorbis.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vorbis.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vp3.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vp3data.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vp3dsp.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/vqavideo.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/wmadata.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/wmadec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/wmv2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/wnv1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/ws-snd1.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/xan.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavcodec/xl.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/4xm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/allformats.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/asf-enc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/asf.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/asf.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/au.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avformat.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avi.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avidec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avienc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avio.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/avio.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/aviobuf.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/crc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/cutils.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/daud.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/dv.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/dv.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/electronicarts.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/ffm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/flic.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/flvdec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/flvenc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/framehook.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/framehook.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/gif.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/gifdec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/idcin.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/idroq.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/img.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/img2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/ipmovie.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/jpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/matroska.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mmf.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mod/file.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mov.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/movenc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mp3.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mpegts.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mpegts.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mpegtsenc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/mpjpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/nsvdec.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/nut.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/ogg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/ogg2.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/ogg2.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/oggparseflac.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/oggparsetheora.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/oggparsevorbis.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/os_support.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/os_support.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/png.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/pnm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/psxstr.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/qtpalette.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/raw.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/rm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/rtp.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/rtsp.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/rtspcodes.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/segafilm.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/sgi.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/sierravmd.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/sol.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/swf.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/utils.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/wav.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/wc3movie.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/westwood.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/yuv.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavformat/yuv4mpeg.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/avutil.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/bswap.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/common.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/integer.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/integer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/intfloat_readwrite.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/intfloat_readwrite.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/mathematics.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/mathematics.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/rational.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/libavutil/rational.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_arab.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_baltic.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_cyrillic.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_greek.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_heb.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_mideurope.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/PIMPSTREAMER090/font10_turk.f">
+        <itemTool>2</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/me/me.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/me/me.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/aspect_ratio.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/aspect_ratio.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/csc_tables_generator.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/dictionary.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/dictionary.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/gu_font.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/gu_font.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/iniparser.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/iniparser.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/me.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/me.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/mem64.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/mem64.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/memsrc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/opendir.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/opendir.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_decode.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_decode.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_file.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_file.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_gu.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_gu.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_interface.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_interface.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_microdvd.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_microdvd.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_parse.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_parse.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_play.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_play.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_read.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/pmp_read.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/stream_io.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/stream_io.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/strlib.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/strlib.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/texture_subdivision.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/texture_subdivision.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/valloc.c">
+        <itemTool>0</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/mod/valloc.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/pimp.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="../../pimpstreamer-0.90/pmpmod/pmpmod.c">
+        <itemTool>0</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
