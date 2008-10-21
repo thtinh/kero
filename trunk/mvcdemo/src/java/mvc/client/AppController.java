@@ -7,16 +7,13 @@
  */
 package mvc.client;
 
-import com.extjs.gxt.ui.client.Registry;
 import com.extjs.gxt.ui.client.mvc.AppEvent;
 import com.extjs.gxt.ui.client.mvc.Controller;
-import com.extjs.gxt.ui.client.mvc.Dispatcher;
 
 public class AppController extends Controller
 {
 
     private AppView appView;
-
     public AppController()
     {
         registerEventTypes(AppEvents.Init);
@@ -53,7 +50,7 @@ public class AppController extends Controller
     private void onInit(AppEvent event)
     {
         forwardToView(appView, event);
-       
+        
     }
 
     private void onLogin(AppEvent event)

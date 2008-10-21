@@ -8,9 +8,66 @@
 package mvc.client;
 
 import com.extjs.gxt.ui.client.data.BaseModel;
+import com.extjs.gxt.ui.client.data.TreeModel;
+import java.util.List;
 
-public class BillItem extends BaseModel
+public class BillItem extends BaseModel implements TreeModel 
 {
+
+    public void add(TreeModel child)
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
+
+    public TreeModel getChild(int index)
+    {
+        return this;
+    }
+
+    public int getChildCount()
+    {
+        return 1;
+    }
+
+    public List getChildren()
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
+
+    public TreeModel getParent()
+    {
+        return null;
+    }
+
+    public int indexOf(TreeModel child)
+    {
+        return 1;
+    }
+
+    public void insert(TreeModel child, int index)
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
+
+    public boolean isLeaf()
+    {
+        return true;
+    }
+
+    public void remove(TreeModel child)
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
+
+    public void removeAll()
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
+
+    public void setParent(TreeModel parent)
+    {
+        throw new UnsupportedOperationException("This is a leaf");
+    }
 
     public BillItem()
     {

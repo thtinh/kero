@@ -20,14 +20,14 @@ public class BillController extends Controller
 
     private BillFolderView folderView;
     private BillView billView;
-    XmlLoader loader;
+  
     public BillController()
     {
         registerEventTypes(AppEvents.Init);
         registerEventTypes(AppEvents.NavBills);
         registerEventTypes(AppEvents.ViewBillItems);
         registerEventTypes(AppEvents.ViewBillItem);
-        loader = new XmlLoader();
+        
     }
 
     @Override
@@ -58,7 +58,7 @@ public class BillController extends Controller
         if (f != null)
         {
            
-           AppEvent ae = new AppEvent(event.type,loader.getUtilityBills());
+           AppEvent ae = new AppEvent(event.type,null);
            
            ae.setData("folder", f);
            forwardToView(billView, ae);

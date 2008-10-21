@@ -52,7 +52,7 @@ public class BillFolderView extends View
     {
         ContentPanel west = (ContentPanel) Registry.get("west");
         west.setLayout(new AccordionLayout());
-
+        
         ContentPanel bill = new ContentPanel();
         bill.setHeading("Bills");
         bill.addListener(Events.Expand, new Listener<ComponentEvent>()
@@ -107,6 +107,8 @@ public class BillFolderView extends View
         if (event.type == AppEvents.NavBills)
         {
             BillModel f = (BillModel) event.data;
+            BillReader reader = new BillReader();
+            reader.getBills();
             if (f != null)
             {
                 loader.addListener(Loader.Load, new LoadListener()

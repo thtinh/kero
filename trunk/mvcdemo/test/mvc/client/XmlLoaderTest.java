@@ -35,13 +35,13 @@ public class XmlLoaderTest
     }
 
     /**
-     * Test of getUtilityBills method, of class XmlLoader.
+     * Test of getUtilityBills method, of class BillReader.
      */
     @Test
     public void testGetUtilityBills()
     {
         System.out.println("getUtilityBills");
-        XmlLoader instance = new XmlLoader();
+        BillReader instance = new BillReader();
         ListStore<BillItem> expResult = null;
         ListStore<BillItem> result = instance.getUtilityBills();
         assertEquals(expResult, result);
