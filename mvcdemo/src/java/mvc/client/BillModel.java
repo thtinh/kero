@@ -46,4 +46,5 @@ public class BillModel extends BaseTreeModel
     {
         return other;
     }
+    
 }
